@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTS - Competitive Testing Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CTS - Competitive Testing Service</h1>
+        <p>Empowering Talented Students in Backward Areas</p>
+    </header>
+    <nav>
+        <a href="#apply">Apply</a>
+        <a href="#speech">Speech Competition</a>
+        <a href="#mcqs">MCQs Test</a>
+        <a href="#announcements">Announcements</a>
+    </nav>
+    <main>
+        <section id="apply">
+            <h2>Online Apply Form</h2>
+            <form action="submit.php" method="post" enctype="multipart/form-data">
+                <label>Student Name: <input type="text" name="student_name" required></label><br>
+                <label>Father Name: <input type="text" name="father_name" required></label><br>
+                <label>School Name: <input type="text" name="school_name" required></label><br>
+                <label>Class:
+                    <select name="class" required>
+                        <option value="">Select</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                </label><br>
+                <label>Contact Number: <input type="number" name="contact" required></label><br>
+                <label>Email (optional): <input type="email" name="email"></label><br>
+                <label>Test Location & Language Preference:
+                    <select name="test_language" required>
+                        <option value="">Select</option>
+                        <option>English</option>
+                        <option>Sindhi</option>
+                        <option>Urdu</option>
+                    </select>
+                </label><br>
+                <label>Upload File (JPG, PNG, PDF, Word): <input type="file" name="file_upload" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx"></label><br>
+                <input type="submit" value="Apply Now">
+            </form>
+        </section>
+
+        <section id="speech">
+            <h2>Speech & Declamation Contest</h2>
+            <p>Competitions in English, Urdu, and Sindhi for talented students from Class 3 to Intermediate.</p>
+        </section>
+
+        <section id="mcqs">
+            <h2>MCQs Based Test</h2>
+            <p>Subject-wise competitive test to identify top-performing students. Mediums: English, Sindhi, Urdu.</p>
+        </section>
+
+        <section id="announcements">
+            <h2>Announcements</h2>
+            <ul>
+                <li>🎉 CTS 2025 Test Applications are now open!</li>
+                <li>🗓️ Last Date to Apply: 15 August 2025</li>
+                <li>📍 Venue: The Educators School, Kalma Chowk, Ghotki</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Contact: +92 305 3078832 | Email: competitivetestingservice@gmail.com</p>
+        <p>Address: GSS Head Office, Near Kalma Chowk, The Educators School, Ghotki</p>
+    </footer>
+</body>
+</html>
